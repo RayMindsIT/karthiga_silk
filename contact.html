@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Store Hours | Karthika Silks Alangulam</title>
+  <meta name="description" content="Get directions to Karthika Silks in Alangulam, Tamil Nadu. Find store operating hours, live status, phone contacts, and send messages through our contact form.">
+  <link rel="icon" href="https://brila.ai/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="assets/images/logo.svg" alt="Karthika Silks Logo" width="40" height="40">
+          கார்த்திகா <span>Silks</span>
+        </a>
+        <button class="mobile-menu-btn" aria-label="Toggle Navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Why Choose Us</a></li>
+          <li><a href="products.html">Popular Items</a></li>
+          <li><a href="gallery.html">Photo Gallery</a></li>
+          <li><a href="reviews.html">What People Say</a></li>
+          <li><a href="contact.html" class="active">Contact & Hours</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Contact & Store Hours</h1>
+      <p>Visit us on Tenkasi Road in Alangulam or get in touch for uniform bookings and product enquiries.</p>
+      <ul class="breadcrumbs">
+        <li><a href="index.html">Home</a></li>
+        <li>Contact & Hours</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Form & Info Grid -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="grid contact-grid reveal">
+        
+        <!-- Left: Contact Form -->
+        <div class="card contact-card">
+          <h2 style="margin-bottom: 0.5rem;">Send a Message</h2>
+          <p style="margin-bottom: 2rem;">Fill out the form below to enquire about bridal uniform sarees, bulk supermarket orders, or other questions.</p>
+          
+          <form id="contactForm" onsubmit="event.preventDefault(); alert('Thank you for contacting Karthika Silks. We will get back to you shortly.'); this.reset();">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" class="form-control" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address (Optional)</label>
+              <input type="email" id="email" class="form-control" placeholder="Enter your email address">
+            </div>
+            <div class="form-group">
+              <label for="subject">Enquiry Subject</label>
+              <select id="subject" class="form-control" required>
+                <option value="" disabled selected>Select a subject</option>
+                <option value="wedding">Wedding Uniform Sarees Bulk Booking</option>
+                <option value="textiles">Textiles & Dress Materials Enquiry</option>
+                <option value="supermarket">Supermarket Bulk Procurement</option>
+                <option value="general">General Feedback / Other Queries</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" class="form-control" placeholder="Describe your request in detail..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Send Enquiry</button>
+          </form>
+        </div>
+
+        <!-- Right: Contact Info & Hours -->
+        <div style="display: flex; flex-direction: column; gap: 2rem;">
+          
+          <!-- Quick Contacts -->
+          <div class="card" style="padding: 2rem;">
+            <h3>Quick Contacts</h3>
+            <ul class="contact-info-list" style="margin-top: 1.5rem;">
+              
+              <li class="contact-info-item">
+                <div class="contact-info-icon">📍</div>
+                <div class="contact-info-content">
+                  <h4>Our Location</h4>
+                  <p>583/A, Tenkasi Rd, Alangulam, Tamil Nadu 627851, India</p>
+                  <a href="https://www.google.com/maps/dir/?api=1&destination=8.8686128,77.4913883" target="_blank" rel="noopener" style="color: var(--primary); font-size: 0.9rem; font-weight: 500; display: inline-block; margin-top: 5px;">
+                    Get Directions &rarr;
+                  </a>
+                </div>
+              </li>
+
+              <li class="contact-info-item">
+                <div class="contact-info-icon">📞</div>
+                <div class="contact-info-content">
+                  <h4>Phone Number</h4>
+                  <p><a href="tel:+918428612818" style="color: var(--text-dark); font-weight: 600;">+91 84286 12818</a></p>
+                  <span style="font-size: 0.85rem; color: var(--text-muted);">Call for bookings and reservations</span>
+                </div>
+              </li>
+              
+            </ul>
+          </div>
+
+          <!-- Store Hours -->
+          <div class="card" style="padding: 2rem;">
+            <h3>Store Operating Hours</h3>
+            
+            <!-- Live hours check status badge -->
+            <div id="store-status-container" style="margin-top: 1.5rem;"></div>
+
+            <table class="hours-table">
+              <tr>
+                <td class="day-name">Monday</td>
+                <td class="day-time">9:00 AM – 9:30 PM</td>
+              </tr>
+              <tr>
+                <td class="day-name">Tuesday</td>
+                <td class="day-time">9:00 AM – 9:30 PM</td>
+              </tr>
+              <tr>
+                <td class="day-name">Wednesday</td>
+                <td class="day-time">9:00 AM – 9:30 PM</td>
+              </tr>
+              <tr>
+                <td class="day-name">Thursday</td>
+                <td class="day-time">9:00 AM – 9:30 PM</td>
+              </tr>
+              <tr>
+                <td class="day-name">Friday</td>
+                <td class="day-time">9:00 AM – 9:30 PM</td>
+              </tr>
+              <tr>
+                <td class="day-name">Saturday</td>
+                <td class="day-time">9:00 AM – 9:30 PM</td>
+              </tr>
+              <tr>
+                <td class="day-name">Sunday</td>
+                <td class="day-time">9:00 AM – 9:30 PM</td>
+              </tr>
+            </table>
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="reveal" style="background-color: var(--bg-white); border-top: 1px solid var(--border-light); padding: 60px 0;">
+    <div class="container">
+      <div class="text-center" style="margin-bottom: 2.5rem;">
+        <h2>Interactive Location Map</h2>
+        <p class="subtitle">Karthika Silks is located on the main Tenkasi Road, making it easy to find and access.</p>
+      </div>
+      <div class="map-container">
+        <iframe src="https://maps.google.com/maps?q=Karthika%20Silks%20%26%20Readymade%20%26%20Supermarket%2C%20583%2FA%2C%20Tenkasi%20Rd%2C%20Alangulam%2C%20Tamil%20Nadu%20627851%2C%20India&hl=en&z=15&output=embed" allowfullscreen height="400" loading="lazy" width="100%" style="border:0;"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: About Brand -->
+        <div class="footer-col">
+          <div class="footer-logo">
+            <img src="assets/images/logo.svg" alt="Karthika Silks Logo">
+            கார்த்திகா <span>Silks</span>
+          </div>
+          <p class="footer-col-text">Complete showroom for family textiles, wedding uniform sarees, ready-made garments, and a comprehensive supermarket. Serving the Alangulam and Tenkasi regions with quality and care since 1994.</p>
+          <div class="footer-badge-rating">
+            <span>⭐️</span>
+            <strong>4.9 Rating</strong> (7,800+ Google Reviews)
+          </div>
+        </div>
+
+        <!-- Col 2: Showroom Categories -->
+        <div class="footer-col">
+          <h3>Collections</h3>
+          <ul class="footer-links">
+            <li><a href="products.html?filter=textiles">Silk & Bridal Sarees</a></li>
+            <li><a href="products.html?filter=textiles">Wedding Uniform Sarees</a></li>
+            <li><a href="products.html?filter=textiles">Salwar Materials & Tops</a></li>
+            <li><a href="products.html?filter=supermarket">Supermarket & Grocery</a></li>
+            <li><a href="products.html?filter=supermarket">Confectionery & Dairy</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Quick Navigation -->
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Why Choose Us</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="reviews.html">What People Say</a></li>
+            <li><a href="contact.html">Contact & Hours</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Store Info -->
+        <div class="footer-col">
+          <h3>Contact Info</h3>
+          <p class="footer-col-text" style="margin-bottom: 1rem;">
+            <strong>Address:</strong><br>
+            583/A, Tenkasi Rd, Alangulam,<br>
+            Tamil Nadu 627851, India
+          </p>
+          <p class="footer-col-text" style="margin-bottom: 1rem;">
+            <strong>Phone:</strong><br>
+            <a href="tel:+918428612818" style="color: var(--gold); font-weight: 600;">+91 84286 12818</a>
+          </p>
+          <p class="footer-col-text">
+            <strong>Store Hours:</strong><br>
+            9:00 AM – 9:30 PM (Daily)
+          </p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Karthika Silks. All rights reserved.</p>
+        <p>Crafted for Premium Experience &bull; SMD Group</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karthika Silks | Textiles & Supermarket in Alangulam</title>
+  <meta name="description"
+    content="Karthika Silks in Alangulam offers premium silk sarees, wedding uniform sarees, dress materials, and festival specials alongside a complete supermarket.">
+  <link rel="icon" href="https://brila.ai/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="assets/images/logo.svg" alt="Karthika Silks Logo" width="40" height="40">
+          கார்த்திகா <span>Silks</span>
+        </a>
+        <button class="mobile-menu-btn" aria-label="Toggle Navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">Why Choose Us</a></li>
+          <li><a href="products.html">Popular Items</a></li>
+          <li><a href="gallery.html">Photo Gallery</a></li>
+          <li><a href="reviews.html">What People Say</a></li>
+          <li><a href="contact.html">Contact & Hours</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Banner Slider -->
+  <section class="hero-slider-container">
+    <!-- Slide 1: Men's Collection -->
+    <div class="hero-slide active">
+      <img src="assets/images/banner_mens.jpg" alt="Men's Festive and Wedding Blazer Collection" class="hero-slide-img"
+        fetchpriority="high">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-slide-content">
+        <h2>MENS <span>COLLECTION</span></h2>
+        <p>Explore wedding sherwanis, premium blazers, and traditional dhotis curated for festivals and marriages.</p>
+        <div>
+          <a href="products.html?filter=textiles" class="btn btn-primary">Browse Men's Wear</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2: Silk Saree Bridal Collection -->
+    <div class="hero-slide">
+      <img src="assets/images/banner_silk.jpg" alt="Luxury Bridal Silk Sarees" class="hero-slide-img">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-slide-content">
+        <h2>SILK & BRIDAL <span>COUTURE</span></h2>
+        <p>Exquisite handloom Kanchipuram and Banarasi sarees designed to make your special days unforgettable.</p>
+        <div>
+          <a href="products.html?filter=textiles" class="btn btn-primary">Explore Saree Boutique</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3: Salwar & Readymade -->
+    <div class="hero-slide">
+      <img src="assets/images/banner_salwar.jpg" alt="Women's Salwar and Readymade Garments" class="hero-slide-img">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-slide-content">
+        <h2>SALWAR & <span>READYMADE</span></h2>
+        <p>Designer salwar kameez, fancy kurtis, and contemporary readymade clothing for women.</p>
+        <div>
+          <a href="products.html?filter=textiles" class="btn btn-primary">View Women's Wear</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 4: Kids Festival Wear -->
+    <div class="hero-slide">
+      <img src="assets/images/banner_kids.jpg" alt="Kids Festive and Traditional Wear" class="hero-slide-img">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-slide-content">
+        <h2>KIDS FESTIVAL <span>WEAR</span></h2>
+        <p>Celebrate every festive and family moment with stylish, comfortable traditional wear for kids.</p>
+        <div>
+          <a href="products.html?filter=textiles" class="btn btn-primary">Browse Kids Wear</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 5: Daily Supermarket -->
+    <div class="hero-slide">
+      <img src="assets/images/banner_supermarket.jpg" alt="Daily Supermarket and Groceries" class="hero-slide-img">
+      <div class="hero-slide-overlay"></div>
+      <div class="hero-slide-content">
+        <h2>DAILY <span>SUPERMARKET</span></h2>
+        <p>Your one-stop neighborhood store for fresh groceries, snacks, household items, and dairy.</p>
+        <div>
+          <a href="products.html?filter=supermarket" class="btn btn-primary">Shop Supermarket</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slider Navigation -->
+    <button class="slider-nav-btn slider-prev-btn" aria-label="Previous Slide">&#10094;</button>
+    <button class="slider-nav-btn slider-next-btn" aria-label="Next Slide">&#10095;</button>
+
+    <!-- Slider Dots -->
+    <div class="slider-dots">
+      <button class="slider-dot active" aria-label="Slide 1"></button>
+      <button class="slider-dot" aria-label="Slide 2"></button>
+      <button class="slider-dot" aria-label="Slide 3"></button>
+      <button class="slider-dot" aria-label="Slide 4"></button>
+      <button class="slider-dot" aria-label="Slide 5"></button>
+    </div>
+  </section>
+
+  <!-- New Arrivals Product Showcase Section -->
+  <section class="product-showcase-section">
+    <div class="container">
+      <div class="showcase-container reveal active">
+        <!-- Left Block: Vertical Featured Saree Card -->
+        <div class="showcase-featured-block">
+          <img src="assets/images/new_arrivals_saree_vertical.jpg" alt="Woman in Pink Silk Saree">
+          <div class="showcase-featured-overlay">
+            <h3>Silk Saree -<br>New Arrivals</h3>
+            <a href="products.html?filter=textiles" class="view-all-link">View All &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Right Block: Horizontal Scroll Row -->
+        <div class="showcase-slider-wrapper">
+          <button class="product-slider-arrow product-slider-arrow-prev" aria-label="Scroll Left">&#10094;</button>
+
+          <div class="product-row-scroll" id="product-row-scroll-container">
+            <!-- Card 1 -->
+            <div class="product-scroll-card">
+              <div class="product-card-img-container">
+                <img src="assets/images/gallery_7.webp" alt="Vivaha Pure Silk Bridal Saree" loading="lazy">
+                <div class="product-card-hover-actions">
+                  <button class="product-hover-action-btn" aria-label="Zoom Image"
+                    data-lightbox-src="assets/images/gallery_7.webp"
+                    data-lightbox-caption="Vivaha Pure Silk Bridal Saree">🔍</button>
+                  <button class="product-hover-action-btn" aria-label="Add to Favorites">❤️</button>
+                  <button class="product-hover-action-btn" aria-label="Add to Cart">🛒</button>
+                </div>
+              </div>
+              <div class="product-card-info">
+                <h4 class="product-card-title">Vivaha Pure Silk Bridal Saree</h4>
+                <div class="product-card-price">₹24,995.00</div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="product-scroll-card">
+              <div class="product-card-img-container">
+                <img src="assets/images/gallery_1.webp" alt="Vivaha Arani Pure Silk Saree" loading="lazy">
+                <div class="product-card-hover-actions">
+                  <button class="product-hover-action-btn" aria-label="Zoom Image"
+                    data-lightbox-src="assets/images/gallery_1.webp"
+                    data-lightbox-caption="Vivaha Arani Pure Silk Saree">🔍</button>
+                  <button class="product-hover-action-btn" aria-label="Add to Favorites">❤️</button>
+                  <button class="product-hover-action-btn" aria-label="Add to Cart">🛒</button>
+                </div>
+              </div>
+              <div class="product-card-info">
+                <h4 class="product-card-title">Vivaha Arani Pure Silk Saree</h4>
+                <div class="product-card-price">₹22,995.00</div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="product-scroll-card">
+              <div class="product-card-img-container">
+                <img src="assets/images/gallery_13.webp" alt="Vivaha Uppada Silk Floral Saree" loading="lazy">
+                <div class="product-card-hover-actions">
+                  <button class="product-hover-action-btn" aria-label="Zoom Image"
+                    data-lightbox-src="assets/images/gallery_13.webp"
+                    data-lightbox-caption="Vivaha Uppada Silk Floral Saree">🔍</button>
+                  <button class="product-hover-action-btn" aria-label="Add to Favorites">❤️</button>
+                  <button class="product-hover-action-btn" aria-label="Add to Cart">🛒</button>
+                </div>
+              </div>
+              <div class="product-card-info">
+                <h4 class="product-card-title">Vivaha Uppada Silk Floral Saree</h4>
+                <div class="product-card-price">₹21,995.00</div>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="product-scroll-card">
+              <div class="product-card-img-container">
+                <img src="assets/images/gallery_20.webp" alt="Vivaha Uppada Silk Georgette Saree" loading="lazy">
+                <div class="product-card-hover-actions">
+                  <button class="product-hover-action-btn" aria-label="Zoom Image"
+                    data-lightbox-src="assets/images/gallery_20.webp"
+                    data-lightbox-caption="Vivaha Uppada Silk Georgette Saree">🔍</button>
+                  <button class="product-hover-action-btn" aria-label="Add to Favorites">❤️</button>
+                  <button class="product-hover-action-btn" aria-label="Add to Cart">🛒</button>
+                </div>
+              </div>
+              <div class="product-card-info">
+                <h4 class="product-card-title">Vivaha Uppada Silk Georgette Saree</h4>
+                <div class="product-card-price">₹21,995.00</div>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="product-scroll-card">
+              <div class="product-card-img-container">
+                <img src="assets/images/gallery_6.webp" alt="Vivaha Pure Silk Kanchipuram Saree" loading="lazy">
+                <div class="product-card-hover-actions">
+                  <button class="product-hover-action-btn" aria-label="Zoom Image"
+                    data-lightbox-src="assets/images/gallery_6.webp"
+                    data-lightbox-caption="Vivaha Pure Silk Kanchipuram Saree">🔍</button>
+                  <button class="product-hover-action-btn" aria-label="Add to Favorites">❤️</button>
+                  <button class="product-hover-action-btn" aria-label="Add to Cart">🛒</button>
+                </div>
+              </div>
+              <div class="product-card-info">
+                <h4 class="product-card-title">Vivaha Pure Silk Kanchipuram Saree</h4>
+                <div class="product-card-price">₹14,995.00</div>
+              </div>
+            </div>
+
+          </div>
+
+          <button class="product-slider-arrow product-slider-arrow-next" aria-label="Scroll Right">&#10095;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Horizontal Feature Strip -->
+  <section style="background-color: var(--bg-white);">
+    <div class="container">
+      <div class="feature-strip reveal">
+        <div class="feature-strip-item">
+          <span class="feature-strip-icon">🏮</span>
+          <div class="feature-strip-content">
+            <h4>Festival Collections</h4>
+            <p>Diwali, Pongal, and Wedding specials</p>
+          </div>
+        </div>
+        <div class="feature-strip-item">
+          <span class="feature-strip-icon">🛒</span>
+          <div class="feature-strip-content">
+            <h4>Supermarket Section</h4>
+            <p>Groceries, dairy, and household essentials</p>
+          </div>
+        </div>
+        <div class="feature-strip-item">
+          <span class="feature-strip-icon">🙋‍♂️</span>
+          <div class="feature-strip-content">
+            <h4>Assisted Service</h4>
+            <p>Help carrying loads directly to vehicle</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visual Category Showcases -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="text-center reveal">
+        <h2>Explore Our Showroom & Aisles</h2>
+        <p class="subtitle" style="margin-bottom: 4rem;">Experience specialized collections curated for your shopping
+          convenience in Alangulam.</p>
+      </div>
+
+      <div class="grid featured-categories-grid reveal">
+
+        <!-- Category 1: Silk & Bridal -->
+        <div class="category-banner-card" onclick="window.location.href='products.html?filter=textiles';">
+          <img src="assets/images/gallery_13.webp" alt="Silk & Bridal Saree collection" loading="lazy">
+          <div class="category-banner-overlay">
+            <span class="category-banner-badge">Showroom</span>
+            <h3 class="category-banner-title">Silk & Bridal Sarees</h3>
+            <p class="category-banner-desc">Exquisite handloom silks and stone sarees perfect for bridal family events.
+            </p>
+            <span class="category-banner-link">View Saree Collection</span>
+          </div>
+        </div>
+
+        <!-- Category 2: Uniform & Ready-mades -->
+        <div class="category-banner-card" onclick="window.location.href='products.html?filter=textiles';">
+          <img src="assets/images/gallery_20.webp" alt="Wedding Uniform Sarees and Dress Materials" loading="lazy">
+          <div class="category-banner-overlay">
+            <span class="category-banner-badge">Showroom</span>
+            <h3 class="category-banner-title">Wedding Uniform Sarees</h3>
+            <p class="category-banner-desc">Matching print uniform sarees and quality dress materials for family
+              marriages.</p>
+            <span class="category-banner-link">View Dress Materials</span>
+          </div>
+        </div>
+
+        <!-- Category 3: Groceries & Supermarket -->
+        <div class="category-banner-card" onclick="window.location.href='products.html?filter=supermarket';">
+          <img src="assets/images/gallery_5.webp" alt="Supermarket checkout and aisles" loading="lazy">
+          <div class="category-banner-overlay">
+            <span class="category-banner-badge">Supermarket</span>
+            <h3 class="category-banner-title">Groceries & Essentials</h3>
+            <p class="category-banner-desc">Daily fresh dairy products, chocolates, personal care, and toys under one
+              roof.</p>
+            <span class="category-banner-link">Browse Supermarket</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Promotion Banner -->
+  <section class="section-padding"
+    style="background-color: var(--bg-white); border-top: 1px solid var(--border-light); border-bottom: 1px solid var(--border-light);">
+    <div class="container">
+      <div class="grid grid-2 reveal" style="align-items: center;">
+        <div>
+          <h2>Unbeatable Festival Value</h2>
+          <p>We believe in offering beautiful collections at comfortable prices. Ask about our bundling offers like 2
+            tops for ₹550 and 2 leggings for ₹300. We also host gold schemes and seasonal gift distribution events for
+            our regular shoppers.</p>
+          <a href="about.html" class="btn btn-primary">Why Choose Us</a>
+        </div>
+        <div class="testimonial-card card">
+          <div class="rating-stars-container">
+            <svg viewBox="0 0 16 16">
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <svg viewBox="0 0 16 16">
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <svg viewBox="0 0 16 16">
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <svg viewBox="0 0 16 16">
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <svg viewBox="0 0 16 16">
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+          </div>
+          <p class="testimonial-text">"The prices are less when compare with other shops. The staffs are so humble,
+            polite and informative."</p>
+          <div class="testimonial-author">
+            <div class="avatar-initial">PR</div>
+            <div class="author-info">
+              <h4>Palani R</h4>
+              <span>Local Guide</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Info & Contact Footer Preview -->
+  <section class="section-padding">
+    <div class="container text-center reveal">
+      <h2>Visit Us in Alangulam</h2>
+      <p class="subtitle" style="margin-bottom: 2rem;">Stop by our shop to explore our collections or call for queries.
+      </p>
+
+      <!-- Store Status Placeholder -->
+      <div id="store-status-container" style="margin-bottom: 2.5rem;"></div>
+
+      <a href="contact.html" class="btn btn-primary">View Contact Details & Hours</a>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-btn lightbox-close" aria-label="Close Lightbox">&times;</button>
+    <button class="lightbox-btn lightbox-prev" aria-label="Previous Image">&#10094;</button>
+    <button class="lightbox-btn lightbox-next" aria-label="Next Image">&#10095;</button>
+    <div class="lightbox-content">
+      <div class="lightbox-image-container">
+        <img id="lightbox-img" src="" alt="Enlarged gallery view">
+      </div>
+      <div id="lightbox-caption" class="lightbox-caption"></div>
+      <div id="lightbox-counter" class="lightbox-counter"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: About Brand -->
+        <div class="footer-col">
+          <div class="footer-logo">
+            <img src="assets/images/logo.svg" alt="Karthika Silks Logo">
+            கார்த்திகா <span>Silks</span>
+          </div>
+          <p class="footer-col-text">Complete showroom for family textiles, wedding uniform sarees, ready-made garments,
+            and a comprehensive supermarket. Serving the Alangulam and Tenkasi regions with quality and care since 1994.
+          </p>
+          <div class="footer-badge-rating">
+            <span>⭐️</span>
+            <strong>4.9 Rating</strong> (7,800+ Google Reviews)
+          </div>
+        </div>
+
+        <!-- Col 2: Showroom Categories -->
+        <div class="footer-col">
+          <h3>Collections</h3>
+          <ul class="footer-links">
+            <li><a href="products.html?filter=textiles">Silk & Bridal Sarees</a></li>
+            <li><a href="products.html?filter=textiles">Wedding Uniform Sarees</a></li>
+            <li><a href="products.html?filter=textiles">Salwar Materials & Tops</a></li>
+            <li><a href="products.html?filter=supermarket">Supermarket & Grocery</a></li>
+            <li><a href="products.html?filter=supermarket">Confectionery & Dairy</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Quick Navigation -->
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Why Choose Us</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="reviews.html">What People Say</a></li>
+            <li><a href="contact.html">Contact & Hours</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Store Info -->
+        <div class="footer-col">
+          <h3>Contact Info</h3>
+          <p class="footer-col-text" style="margin-bottom: 1rem;">
+            <strong>Address:</strong><br>
+            583/A, Tenkasi Rd, Alangulam,<br>
+            Tamil Nadu 627851, India
+          </p>
+          <p class="footer-col-text" style="margin-bottom: 1rem;">
+            <strong>Phone:</strong><br>
+            <a href="tel:+918428612818" style="color: var(--gold); font-weight: 600;">+91 84286 12818</a>
+          </p>
+          <p class="footer-col-text">
+            <strong>Store Hours:</strong><br>
+            9:00 AM – 9:30 PM (Daily)
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Karthika Silks. All rights reserved.</p>
+        <p>&bull; RayMinds IT</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
